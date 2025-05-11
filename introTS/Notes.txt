@@ -1,0 +1,12 @@
+
+npm i typescript -g
+
+    this is for adding the depedence on globel scope
+
+npm list -g
+
+    this is to check the data of globle scope
+
+npm i tsc -D
+
+    this is 
