@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var a = "hello";
 a = "mehfooz"; //Okay
 //a = 1; //Error
