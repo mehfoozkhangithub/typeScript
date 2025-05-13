@@ -6,7 +6,7 @@ arr.push(4); //okay
 
 // this is interprited number of array or object constuctor...
 
-let arr2: Array<number | string> = [1, 2, 3];
+let arr2: Array<number | string> = [1, 2, 3]; // generic functions
 
 arr2.push(4);
 arr2.push("hello");
