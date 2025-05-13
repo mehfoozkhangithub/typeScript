@@ -1,25 +1,23 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var a = "hello";
+let a = "hello";
 a = "mehfooz"; //Okay
 //a = 1; //Error
-var b = 1;
+let b = 1;
 b = 321; // Okay
 //b = "asxa";
-var c = true; // if we use -> : Boolean "capital letter of the value it's will dnote constructor-classes"
+let c = true; // if we use -> : Boolean "capital letter of the value it's will dnote constructor-classes"
 //null, undefine
-var d = null;
+let d = null;
 d = "hello";
 d = null;
 //type any
-var e = "hello";
+let e = "hello";
 e = false;
 e = undefined;
 e = null;
 e = "hello";
 e();
 // custome types
-var f = "foo";
+let f = "foo";
 f = "bar"; // Okay
 //f = "Bar"; //Error
 /*
@@ -56,3 +54,4 @@ f = "bar"; // ✅ Okay
 // f = "Bar"; // ❌ Error: Type '"Bar"' is not assignable to type '"foo" | "bar"'
 
 */
+//# sourceMappingURL=1.js.map

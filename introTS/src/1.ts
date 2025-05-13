@@ -1,5 +1,3 @@
-export {}; // This makes the file a module
-
 let a: string = "hello";
 a = "mehfooz"; //Okay
 //a = 1; //Error

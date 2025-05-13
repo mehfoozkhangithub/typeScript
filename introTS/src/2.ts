@@ -1,12 +1,13 @@
-export {}; // This makes the file a module
-
-const myFunc = (a: number, b: number): any => {
+const add = (a: number, b: number): number => {
   return a + b;
 };
 
-myFunc(2, 4);
-const myFunc2 = (a: number, b: number): any => {
-  return a + b;
-};
+add(1, 2); //Okay
+//add(1); //error need the second args
+//add(5,"hello") // error
 
-myFunc2(5, 9);
+// sec eg :-
+
+const log = (message: string): void => {
+  console.log(" message:", message);
+};

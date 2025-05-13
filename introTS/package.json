@@ -3,14 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server:1": "tsc src/1.ts",
-    "server:2": "tsc src/2.ts"
+    "build": "tsc --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "tsc": "^2.0.4"
-  }
+  "description": ""
 }
