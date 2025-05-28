@@ -1,7 +1,7 @@
 // object
 let user: object = {
   id: 1,
-  name: "mehfooz",
+  name: 'mehfooz',
 };
 
 // user.lastName="khan"// error
@@ -12,7 +12,7 @@ let user1: {
   name: string;
 } = {
   id: 1,
-  name: "mehfooz",
+  name: 'mehfooz',
 };
 
 // user.lastName="khan"// error
@@ -31,7 +31,7 @@ question.isHuman = true;
 
 let g: number = 8;
 
-let arr88: any[] = [1, 2, 3, "mehfooz", "khan"];
+let arr88: any[] = [1, 2, 3, 'mehfooz', 'khan'];
 
 // what we can do here for object ..
 
@@ -46,7 +46,7 @@ type DATA = { id: number; name: string; address?: string }; // this is custome t
 
 let obj22: DATA = {
   id: 1,
-  name: "mehfooz",
+  name: 'mehfooz',
 };
 
 type Company = {
@@ -55,26 +55,56 @@ type Company = {
   address?: string;
 };
 
+type SoftwareDeveloper = {
+  isWorking: boolean;
+  skill: string;
+};
+
 const masai: Company = {
-  name: "Masai",
-  address: "Bangalore",
+  name: 'Masai',
+  address: 'Bangalore',
   age: 2,
 };
 
-const companies = [
+const companies: Array<Company> = [
   {
-    name: "Masai",
-    address: "Bangalore",
+    name: 'Masai',
+    address: 'Bangalore',
     age: 2,
   },
   {
-    name: "Flipcart",
-    address: "Pune",
+    name: 'Flipcart',
+    address: 'Pune',
     age: 3,
   },
   {
-    name: "Zomato",
-    address: "Delhi",
+    name: 'Zomato',
+    address: 'Delhi',
     age: 4,
   },
 ];
+
+//# union and intersection's
+
+/* 
+
+! union is denoted as a 'OR' 
+
+# intersection's denoted as 'AND'
+
+*/
+
+//$ union example :
+
+const arrOfNumOfStr: (number | string | boolean)[] = ['mehfooz', 7];
+const arrOfNumOfStr1: Array<number | string> = ['mehfooz', 7]; // this is the also one way to pattern to write the code of above code.
+
+//$ intersection's example :
+
+const masaiStudents: Company & SoftwareDeveloper = {
+  isWorking: true,
+  skill: 'softeware developer',
+  address: '',
+  age: 23,
+  name: 'student_1',
+};

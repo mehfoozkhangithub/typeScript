@@ -11,7 +11,7 @@
         `npm uninstall typescript -g`
         `npm uninstall tsc`
 
-Comilation
+Compilation
 HLL -> Compiler -> LLL
 
 Transpiler
