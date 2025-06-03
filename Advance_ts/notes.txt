@@ -1,0 +1,25 @@
+- configuration
+
+    - npm init -y
+    - tsc --init
+    - for checking the tsc was install global use 'npm tsc -g'
+
+
+
+
+
+
+    * here we have the advance topics
+
+    - Enum
+         
+
+
+    - Tuple
+    - Keyof
+    - typeof
+    - Genric
+    - Interface
+    - Class
+    - Interface 
+    - Configuration
