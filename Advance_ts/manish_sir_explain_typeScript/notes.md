@@ -1,0 +1,16 @@
+- primitive data type
+- string
+- boolean
+- number
+- Arrays
+- Object
+- functions
+  - parameter types
+  - function return types
+- Unions and intersections
+
+- Enums
+- Generic functions
+- interfaces
+- classes
+- tuple

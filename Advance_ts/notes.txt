@@ -12,6 +12,7 @@
     * here we have the advance topics
 
     - Enum
+        enum is group of named constant value;
          
 
 
