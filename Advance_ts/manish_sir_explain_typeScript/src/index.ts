@@ -1,5 +1,7 @@
-/* let gender: 'Male' | 'Female' | 'Trans' | 'Prefer-not-to-say' = 'Male';
- */
+/*
+let gender: 'Male' | 'Female' | 'Trans' | 'Prefer-not-to-say' = 'Male';
+*/
+//something
 
 // enum -> is a group of named constant values;
 
@@ -14,6 +16,8 @@ enum gender {
   Female = 'Female',
   Prefer_Not_To_Say = 'Prefer-Not-To-Say',
 } */
+
+//hello
 
 const gender_1: gender = gender.Female;
 console.log(' gender_1:', gender);
